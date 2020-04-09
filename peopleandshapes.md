@@ -9,7 +9,7 @@ A project for my final critique in AFVS 41a taught by Sharon Harper. Focused on 
 
     <div class="gallery-image-wrapper">
         <a href="/photos/peopleandshapes/bus_stop.jpg">
-            <img class="gallery-image" src="/photos/peopleandshapes/thumbs/bus_stop.jpg" />
+            <img class="gallery-image" src="/public/image/thumbs/family_wall.jpg" />
         </a>
     </div>
 
