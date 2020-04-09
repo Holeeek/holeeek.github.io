@@ -5,10 +5,7 @@ description:      'Building <a href="https://www.newspark.us" target="_blank"> n
 url:              ''
 baseurl:          ''
 paginate:         5
-<<<<<<< HEAD
 markdown:         kramdown
-=======
->>>>>>> gh-pages
 
 # About and contact
 author:
