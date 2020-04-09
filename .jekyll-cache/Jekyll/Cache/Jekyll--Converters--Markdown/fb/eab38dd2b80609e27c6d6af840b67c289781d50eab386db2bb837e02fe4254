@@ -1,0 +1,67 @@
+I"D<p>Photography has been a hobby of mine for quite a while. Below I present a brief selection of my work from the past year.</p>
+
+<p>«div class=”page-center”&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="bus_stop.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/bus_stop.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="couple_bench.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/couple_bench.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="guard_construction.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/guard_construction.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="halal_cart.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/halal_cart.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="men_pillar.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/men_pillar.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="park_walk.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/park_walk.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="pink_coat.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/pink_coat.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="rails_blacknwhite.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/rails_blacknwhite.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="squat.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/squat.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-image-wrapper"&gt;
+    &lt;a href="street_crossing.jpg"&gt;
+        &lt;img class="gallery-image" src="thumbs/street_crossing.jpg" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>&lt;/div&gt;</p>
+:ET

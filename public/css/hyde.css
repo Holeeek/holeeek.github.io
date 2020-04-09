@@ -284,5 +284,33 @@ a {
 
 
 .gallery-wrapper {
+  width: 35em;
+  text-align: center;
+  padding: 1em 0 4em 0;
+}
 
+.gallery-best-image{
+  max-height: 20em;
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+.gallery-image-wrapper {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 20px auto;
+  position: relative;
+}
+
+.gallery-image {
+  margin: auto auto;
+  top: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.page-center{
+  margin: 0 auto;
 }
