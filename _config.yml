@@ -1,6 +1,5 @@
 #dependencies
 markdown:         kramdown
-highlighter:      pygments
 
 # Setup
 title:            Maciej Holubiec
