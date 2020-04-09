@@ -2,10 +2,9 @@
 title:            Maciej Holubiec
 tagline:          'A Jekyll theme'
 description:      'Building <a href="https://www.newspark.us" target="_blank"> newspark </a> | A.B. in Statistics | Harvard 20'' <a href="https://www.linkedin.com/in/holubiec/" target="_blank">@mholubiec</a>'
-url:              https://hyde.getpoole.com
+url:              ''
 baseurl:          ''
 paginate:         5
-paginate_path:    "/articles/"
 
 # About and contact
 author:
