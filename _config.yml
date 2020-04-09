@@ -1,26 +1,58 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
 # Setup
-title:            Hyde
+title:            Maciej Holubiec
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
+description:      'Building <a href="https://www.newspark.us" target="_blank"> newspark </a> | A.B. in Statistics | Harvard 20'' <a href="https://www.linkedin.com/in/holubiec/" target="_blank">@mholubiec</a>'
+url:              https://hyde.getpoole.com
+baseurl:          ''
 paginate:         5
+paginate_path:    "/articles/"
+
+# About and contact
+author:
+  name:           'Maciej Holubiec'
+  url:            https://www.linkedin.com/in/holubiec/
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-gallery-generator
 
 # Custom vars
-version:          2.1.0
+version:          1.0.1
 
-github:
-  repo:           https://github.com/poole/hyde
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Portfolio"           # Title for gallery index page
+  title_prefix: "Portfolio: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 400                  # max width of thumbnails (in pixels)
+    y: 400                  # max height of thumbnails (in pixels)
+
+  # The following options are for individual galleries.
+  galleries:
+    israel:
+      best_image: palm_trees.jpg  # The image to show on the gallery index page. Defaults to the last image.
+      name: Israel winter break
+      sort_reverse: false
+      hidden: false
+      info:
+        desc: A series of pictures depicting life in Israel
+    light:
+      best_image: IMG_7845-1.jpg  # The image to show on the gallery index page. Defaults to the last image.
+      name: Playing with light
+      sort_reverse: false
+      hidden: true
+      info:
+        desc: Project exploring the importance of light
+    peopleandshapes:
+      best_image: rails_blacknwhite.jpg  # The image to show on the gallery index page. Defaults to the last image.
+      name: Israel winter break
+      sort_reverse: false
+      hidden: false
+      info:
+        desc: A series of pictures depicting relationships between people and the shapes surrounding us
