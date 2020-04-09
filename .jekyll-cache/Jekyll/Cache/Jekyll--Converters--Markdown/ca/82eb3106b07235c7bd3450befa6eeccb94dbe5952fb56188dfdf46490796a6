@@ -1,15 +1,10 @@
----
-layout: page
-title: Portfolio - People and Shapes
----
-
-A project for my final critique in AFVS 41a taught by Sharon Harper. Focused on the interaction between people and the environment. How does the presence of a person influence our perception of the geometric shapes we see everywhere?
+I"E	<p>A project for my final critique in AFVS 41a taught by Sharon Harper. Focused on the interaction between people and the environment. How does the presence of a person influence our perception of the geometric shapes we see everywhere?</p>
 
 <div class="page-center">
 
     <div class="gallery-image-wrapper">
         <a href="/photos/peopleandshapes/bus_stop.jpg">
-            <img class="gallery-image" src="/public/image/thumbs/bus_stop.jpg" />
+            <img class="gallery-image" src="/public/image/thumbs/bust_stop.jpg" />
         </a>
     </div>
 
@@ -68,3 +63,4 @@ A project for my final critique in AFVS 41a taught by Sharon Harper. Focused on 
     </div>
 
 </div>
+:ET
