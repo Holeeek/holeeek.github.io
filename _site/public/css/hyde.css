@@ -39,12 +39,6 @@ html {
     font-size: 16px;
   }
 }
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
-
 
 /*
  * Sidebar
@@ -75,6 +69,10 @@ html {
   }
 }
 
+
+
+
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
@@ -103,6 +101,7 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+
 
 /* Sticky sidebar
  *
@@ -284,7 +283,6 @@ a {
 
 
 .gallery-wrapper {
-  width: 35em;
   text-align: center;
   padding: 1em 0 4em 0;
 }
@@ -298,9 +296,7 @@ a {
 .gallery-image-wrapper {
   height: 300px;
   width: 300px;
-  display: inline-block;
-  margin: 20px auto;
-  position: relative;
+  margin: 50px auto;
 }
 
 .gallery-image {
