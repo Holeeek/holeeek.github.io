@@ -3,11 +3,15 @@ layout: default
 title: Thoughts
 ---
 
+<div class="page">
+  <p>
+</div>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
+      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
