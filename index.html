@@ -1,41 +1,17 @@
 ---
 layout: default
-title: Thoughts
+title: About
 ---
 
-<div class="page">
-  <p> A sample of my writing </p>
-</div>
+<div class = "page">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <p> Hi! My name is Maciej ("mah-chay" or just call me Matt). </p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <p> Born and raised in Poland, I moved to the US for college when I was 19. I spent the first three years at Harvard pursuing a mix of Statistics, Computer Science and Finance. I also focused heavily on East Asia, having participated in a summer school in Japan, having interned in China twice, and having studied Mandarin for 3 years.</p>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+  <p> After junior year I realized I wasn't sure what I want to do after graduation, and spontaneously decided to take a gap year. I spent the next 14 months exploring different career paths I could pursue. I spent the first few months at home in Warsaw, interning as a strategy analyst at White Star Real Estate and later as an associate consultant at Bain & Company. I then moved to London, where I explored the world of credit risk at Mercuria Energy Trading. Finally, I spent my summer in Singapore working at J.P. Morgan's investment banking division. </p>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+  <p> The year off taught me that I want to focus on social impact and entrepreneurship. That's why after returning to Harvard I co-founded <span class="bold"><a href="https://newspark.us" target="_blank">newspark</a></span> and became an advisor at <span class="bold"><a href = "https://off.org.pl/en/" target = "_blank">Our Future Foundation</a></span>.</p>
+
+  <p> Check out my collection of articles and thoughs <span class="bold"><a href="/thoughts.html">here</a></span></p>
 </div>
